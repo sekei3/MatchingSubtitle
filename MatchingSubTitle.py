@@ -21,7 +21,7 @@ def isVideoFile(filename):
 
 def isSubTitleFile(filename):
     for subtitle in SubtitleFileEnds:
-        if( filename.lower().endswith(sutitle.value)):
+        if( filename.lower().endswith(subtitle.value)):
             return True
     
     return False
